@@ -130,10 +130,70 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
+
+# Default Editor 
+export EDITOR=vim
+
+
+
+# Aliases 
+
+# ls alias
 alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
+alias la='ls -a'
+alias l='ls -al'
+alias lh='ls -alh'
+alias lf='ls -alhF'
+
+# alias for Source
+alias sou='source'
+
+# Alias for mkdir
+
+alias md='mkdir'
+alias mdp='mkdir -p'
+
+# Alias for touch 
+alias to='touch'
+
+# Remove a Directory
+
+alias del='rm -rf'
+
+# alias for copy directory 
+
+alias cpr='cp -r'
+
+# alias for vim 
+alias v='vim'
+alias vi='vim'
+alias pico='vim'
+alias nano='vim'
+alias sv='sudo vim'
+alias svi='sudo vim'
+alias spico='sudo vim'
+alias snano='sudo vim'
+
+# Alias for nala package manager 
+alias upd='sudo nala update'
+alias upg='sudo nala upgrade'
+alias updy='sudo nala update -y'
+alias upgy='sudo nala upgrade -y'
+alias inst='sudo nala install'
+alias insty='sudo nala install -y'
+alias rem='sudo nala remove'
+alias remy='sudo nala remove -y'
+alias auto='sudo nala autoremove'
+alias autoy='sudo nala autoremove -y'
+
+# net-tools 
+
+alias p='ping'
+alias p4='ping -c 4'
+alias ip='ifconfig'
+alias d='ping 8.8.8.8'
+alias d4='ping -c 4 8.8.8.8'
+
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
