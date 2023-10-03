@@ -273,6 +273,12 @@ alias v='vim'
 alias vi='vim'
 alias pico='vim'
 alias nano='vim'
+alias sv='sudo vim'
+alias svi='sudo vim'
+alias spico='sudo vim'
+alias snano='sudo vim'
+
+
 
 # alias for copy a directory
 alias cpr='cp -r'
@@ -282,10 +288,13 @@ alias upd='sudo nala update'
 alias upg='sudo nala upgrade'
 alias updy='sudo nala update -y'
 alias upgy='sudo nala upgrade -y'
-alias inst='sudo nala install -y'
+alias inst='sudo nala install '
+alias insty='sudo nala install -y'
 alias rem='sudo nala remove'
 alias remy='sudo nala remove -y'
-alias auto='sudo nala autoremove -y'
+alias auto='sudo nala autoremove'
+alias autoy='sudo nala autoremove -y'
+
 
 
 # net-tools 
@@ -293,6 +302,9 @@ alias auto='sudo nala autoremove -y'
 alias p='ping'
 alias p4='ping -c 4'
 alias ip='ifconfig'
+alias dp='ping 8.8.8.8'
+alias dp4='ping -c 4 8.8.8.8'
+
 
 
 # enable auto-suggestions based on the history
