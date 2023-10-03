@@ -287,6 +287,14 @@ alias rem='sudo nala remove'
 alias remy='sudo nala remove -y'
 alias auto='sudo nala autoremove -y'
 
+
+# net-tools 
+
+alias p='ping'
+alias p4='ping -c 4'
+alias ip='ifconfig'
+
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
