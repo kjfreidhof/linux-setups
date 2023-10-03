@@ -191,8 +191,8 @@ alias autoy='sudo nala autoremove -y'
 alias p='ping'
 alias p4='ping -c 4'
 alias ip='ifconfig'
-alias d='ping 8.8.8.8'
-alias d4='ping -c 4 8.8.8.8'
+alias dp= 'ping 8.8.8.8'
+alias dp4='ping -c 4 8.8.8.8'
 
 
 # Alias definitions.
