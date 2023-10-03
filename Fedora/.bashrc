@@ -199,8 +199,16 @@ alias snano='sudo vim'
 alias c='code'
 alias cc='code'
 
-# net-tools
 
+# dnf package manager aliases
+alias upd='sudo dnf check-update -y'
+alias upg='sudo dnf update'
+alias upgy='sudo dnf update -y'
+alias inst='sudo dnf install -y'
+alias insty='sudo dnf install -y'
+alias rem='sudo dnf remove'
+alias remy='sudo dnf remove -y'
+# net-tools aliases 
 alias p='ping'
 alias p4='ping -c 4'
 alias ip='ifconfig'
